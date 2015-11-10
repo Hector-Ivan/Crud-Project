@@ -25,3 +25,4 @@ Your task is to study how the user CRUD was built and to develop another entity 
 You'll also need to make your own special user interface. The existing one is pretty lame. Create that separately from the Backbone code and when it's looking nice, introduce it into the code base.
 
 Have fun.
+ADDING SOME TEXT TO PRACTICE PULL REQUEST
