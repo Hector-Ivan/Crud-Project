@@ -12,5 +12,22 @@
       "hobby": "Beard Growing",
       "img": "http://robohash.org/14eb93afa4d.png"
     }
+  ],
+  "books": [
+    {
+      "img": "http://gmslc.weebly.com/uploads/2/0/7/6/20762808/3119948.jpg",
+      "title": "Help Your Kids With Computer Coding",
+      "description": "An introductory guide to coding, for parents to help their kids."
+    },
+    {
+      "img": "http://gmslc.weebly.com/uploads/2/0/7/6/20762808/9555591.jpg",
+      "title": "Build Your Own Website",
+      "description": "An illustrated introduction to the basics of creating a website."
+    },
+    {
+      "img": "./images/coding-drunk.png",
+      "title": "Coding Drunk",
+      "description": "Make programming fun again"
+    }
   ]
 }

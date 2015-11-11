@@ -1,0 +1,14 @@
+{{#each this}}
+<div class="container">
+ 	<div class="mediaImg">
+		<img src="{{img}}" alt="" width=140 height=140>
+  	</div>
+  	<div data-id="{{id}}" class="mediaContent">
+		<p>{{title}}</p>
+		<p>{{description}}</p>
+		<p><a href="/#/books/{{id}}/edit">Edit</a> |
+	  	<a href="/#/books/{{id}}/delete">Delete</a>
+		</p>
+  	</div>
+</div>
+{{/each}}
