@@ -64,30 +64,30 @@ var BookFormView = Backbone.View.extend({
 			// Only set the image on add mode
 			switch (formData.type) {
 				case "html":
-					formData.img = '../images/html.png';
+					formData.img = '/images/html.png';
 					break;
 				case "css":
 					formData.img = '/images/css.png';
 					break;
 				case "htmlcss":
-					formData.img = '../images/html&css.png';
+					formData.img = '/images/html&css.png';
 					break;
 				case "javascript":
-					formData.img = '../images/javascript.png';
+					formData.img = '/images/javascript.png';
 					break;
 				case "jquery":
-					formData.img = '../images/jquery.png';
+					formData.img = '/images/jquery.png';
 					break;
 				case "ajax":
-					formData.img = '../images/ajax.png';
+					formData.img = '/images/ajax.png';
 				case "php":
 					formData.img = '/images/php.png';
 				case "gameing":
-					formData.img = '../images/gaming-edition-two.png';
+					formData.img = '/images/gaming-edition-two.png';
 				case "game-coding":
-					formData.img = '../images/gaming-edition-two.png';
+					formData.img = '/images/gaming-edition-two.png';
 				case "game-making":
-					formData.img = '../images/game-maker.png';	
+					formData.img = '/images/game-maker.png';	
 				default:
 					// alert('Sorry, we do not have that product')
 			}

@@ -13,28 +13,16 @@
       "img": "http://robohash.org/14eb93afa4d.png"
     },
     {
-      "name": "Keith",
-      "hobby": "Gaming",
-      "img": "http://robohash.org/150f8a01da8.png",
-      "id": 3
-    },
-    {
-      "name": "Ryson",
-      "hobby": "Games",
-      "img": "http://robohash.org/150f955e565.png",
-      "id": 4
-    },
-    {
-      "name": "Easton",
-      "hobby": "Games",
-      "img": "http://robohash.org/150f9566afe.png",
-      "id": 5
-    },
-    {
       "name": "iron man",
       "hobby": "saving the world",
       "img": "http://robohash.org/150f95995db.png",
       "id": 6
+    },
+    {
+      "name": "Keith",
+      "hobby": "Gaming",
+      "img": "http://robohash.org/150fbe71183.png",
+      "id": 7
     }
   ],
   "books": [
@@ -52,11 +40,6 @@
       "img": "./images/coding-drunk.png",
       "title": "Coding Drunk",
       "description": "Make programming fun again"
-    },
-    {
-      "code": "Language",
-      "title": "game-making",
-      "id": "8eaee7cb-c37d-47cd-b2a7-9a0db314c92c"
     },
     {
       "code": "Language",
@@ -79,9 +62,9 @@
       "id": "be182e0f-2e20-4144-9320-3beeb2383f92"
     },
     {
-      "code": "Language",
-      "title": "php",
-      "id": "e2e991cf-0531-4af4-bc6e-466f03615f37"
+      "code": "html",
+      "title": "html",
+      "id": "344d86f0-e742-4130-8c8c-dac8e9701ef7"
     }
   ]
 }
