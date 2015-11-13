@@ -2,59 +2,8 @@ th, td {
   padding: 10px 20px;
 }
 
-/****************************************
-  Inherited Syles
-*****************************************/
-
-/*
-See this explanation for details
-https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
-*/
-
- html {
-    box-sizing: border-box;
-    color: #444;
-    font: 12pt 'Open Sans', 'Lobster', Arial;
-    font-weight: 300;
-}
-
-/****************************************
-  Resets
-*****************************************/
-
-*, *::before, *::after {
-    box-sizing: inherit;
-    color: inherit;
-    font: inherit;
-}
- 
-
-
-/****************************************
-  Components
-****************************************/
-
-/*.container > * + * {
-	margin-top: 10px;
-}*/
-
-.container {
-	display: flex;
-	background-color: rgba(241, 241, 241, 1);
-	/*min-height: 140px;*/
-	width: 500px;
-	border-radius: 5px;
-	padding: 15px;
-}
-
-.mediaImg {
-	/*background-color: #FFF;*/
-	width: 150px;
-}
-
-.mediaContent {
-	flex: 1;
-	height: 150px;
-	background-color: #FFF;
-	margin-left: 10px;
+select.icon-menu option {
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-left: 30px;
 }

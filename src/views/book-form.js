@@ -40,7 +40,7 @@ var BookFormView = Backbone.View.extend({
 				var form = _this.$el.find($('form.product'))
 
 				form.find($('select[name="code"]')).val(book.code)
-				form.find($('select[name="title"]')).val(book.title)
+				form.find($('select[name="title"]')).text(book.title)
 
 				})
 		}
@@ -62,7 +62,7 @@ var BookFormView = Backbone.View.extend({
 		if(!this.editMode) {
 
 			// Only set the image on add mode
-			switch (formData.type) {
+			switch (formData.title) {
 				case "html":
 					formData.img = '/images/html.png';
 					break;
@@ -94,7 +94,7 @@ var BookFormView = Backbone.View.extend({
 
 			App.Collections.book.create(formData, {
 				success: function (book) {
-					App.router.navigate('/', { trigger: true });
+					App.router.navigate('/books', { trigger: true });
 				}
 			});
 

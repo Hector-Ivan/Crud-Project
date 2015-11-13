@@ -9,7 +9,7 @@ var App = require('../app');
 // View: List Books
 
 var ListBooks = Backbone.View.extend({
-	el: $('main'),
+	el: 'main',
 
 	collection: App.Collections.book,
 

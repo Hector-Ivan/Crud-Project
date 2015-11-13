@@ -55,9 +55,6 @@ App.Router = Backbone.Router.extend({
 		});
 	},
 
-	defaultRoute: function(actions) {
-		console.log('404');
-	},
 
 	book: function() {
 		App.Views.ListBooks.render();
@@ -74,6 +71,10 @@ App.Router = Backbone.Router.extend({
 			.then(function (book) {
 				App.router.navigate('/books', { trigger: true })
 		});
+	},
+	
+	defaultRoute: function(actions) {
+		console.log('404');
 	},
 });
 

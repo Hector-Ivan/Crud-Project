@@ -13,58 +13,72 @@
       "img": "http://robohash.org/14eb93afa4d.png"
     },
     {
-      "name": "iron man",
-      "hobby": "saving the world",
-      "img": "http://robohash.org/150f95995db.png",
-      "id": 6
-    },
-    {
       "name": "Keith",
-      "hobby": "Gaming",
+      "hobby": "Gaming and Programming",
       "img": "http://robohash.org/150fbe71183.png",
       "id": 7
+    },
+    {
+      "name": "Hector",
+      "hobby": "JavaScript",
+      "img": "http://robohash.org/15101ff41fa.png",
+      "id": 8
     }
   ],
   "books": [
     {
+      "id": 1,
       "img": "http://gmslc.weebly.com/uploads/2/0/7/6/20762808/3119948.jpg",
       "title": "Help Your Kids With Computer Coding",
       "description": "An introductory guide to coding, for parents to help their kids."
     },
     {
+      "id": 2,
       "img": "http://gmslc.weebly.com/uploads/2/0/7/6/20762808/9555591.jpg",
       "title": "Build Your Own Website",
       "description": "An illustrated introduction to the basics of creating a website."
     },
     {
+      "id": 3,
       "img": "./images/coding-drunk.png",
       "title": "Coding Drunk",
       "description": "Make programming fun again"
     },
     {
       "code": "Language",
-      "title": "ajax",
-      "id": "3a983197-7994-4966-804b-367c414b723f"
-    },
-    {
-      "code": "gameing",
-      "title": "game-coding",
-      "id": "04cbca49-09d3-41f2-b611-7a2432e6094b"
+      "title": "htmlcss",
+      "id": 4
     },
     {
       "code": "Language",
-      "title": "game-making",
-      "id": "3794e7bd-693c-46d7-ad2a-12dd09f32125"
+      "title": "php",
+      "id": 5
+    },
+    {
+      "code": "Language",
+      "title": "Title",
+      "id": 6
+    },
+    {
+      "code": "Language",
+      "title": "ajax",
+      "id": 7
+    },
+    {
+      "code": "Language",
+      "title": "jquery",
+      "id": 8
+    },
+    {
+      "code": "Language",
+      "title": "javascript",
+      "id": 9
     },
     {
       "code": "Language",
       "title": "css",
-      "id": "be182e0f-2e20-4144-9320-3beeb2383f92"
-    },
-    {
-      "code": "html",
-      "title": "html",
-      "id": "344d86f0-e742-4130-8c8c-dac8e9701ef7"
+      "img": "/images/css.png",
+      "id": 10
     }
   ]
 }
