@@ -40,7 +40,7 @@ var BookFormView = Backbone.View.extend({
 				var form = _this.$el.find($('form.product'))
 
 				form.find($('select[name="code"]')).val(book.code)
-				form.find($('select[name="title"]')).text(book.title)
+				form.find($('select[name="title"]')).val(book.title)
 
 				})
 		}
