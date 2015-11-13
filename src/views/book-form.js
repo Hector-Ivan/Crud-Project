@@ -41,7 +41,7 @@ var BookFormView = Backbone.View.extend({
 
 				form.find($('select[name="code"]')).val(book.code)
 				form.find($('select[name="title"]')).val(book.title)
-
+				form.find($('input[name="description"]')).val(book.description)
 				})
 		}
 	},
@@ -56,6 +56,7 @@ var BookFormView = Backbone.View.extend({
 		var formData = {
 			code: $('form.product select[name=code]').val(),
 			title: $('form.product select[name=title]').val(),
+			description: $('form.product input[name=description]').val(),
 		};
 
 		// Add Mode (Create User)
@@ -80,14 +81,19 @@ var BookFormView = Backbone.View.extend({
 					break;
 				case "ajax":
 					formData.img = '/images/ajax.png';
+					break;
 				case "php":
 					formData.img = '/images/php.png';
+					break;
 				case "gameing":
 					formData.img = '/images/gaming-edition-two.png';
+					break;
 				case "game-coding":
 					formData.img = '/images/gaming-edition-two.png';
+					break;
 				case "game-making":
-					formData.img = '/images/game-maker.png';	
+					formData.img = '/images/game-maker.png';
+					break;	
 				default:
 					// alert('Sorry, we do not have that product')
 			}
@@ -103,7 +109,7 @@ var BookFormView = Backbone.View.extend({
 			this.product.set(formData);
 			this.product.save()
 				.then(function () {
-					App.router.navigate('/', { trigger: true});
+					App.router.navigate('/books', { trigger: true});
 				});
 		}
 	}

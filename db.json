@@ -11,18 +11,6 @@
       "name": "Kevin",
       "hobby": "Beard Growing",
       "img": "http://robohash.org/14eb93afa4d.png"
-    },
-    {
-      "name": "Keith",
-      "hobby": "Gaming and Programming",
-      "img": "http://robohash.org/150fbe71183.png",
-      "id": 7
-    },
-    {
-      "name": "Hector",
-      "hobby": "JavaScript",
-      "img": "http://robohash.org/15101ff41fa.png",
-      "id": 8
     }
   ],
   "books": [
@@ -46,39 +34,31 @@
     },
     {
       "code": "Language",
-      "title": "htmlcss",
-      "id": 4
+      "title": "css",
+      "img": "/images/css.png",
+      "id": 10,
+      "description": "Learn CSS from a robot"
     },
     {
       "code": "Language",
-      "title": "php",
-      "id": 5
-    },
-    {
-      "code": "Language",
-      "title": "Title",
-      "id": 6
-    },
-    {
-      "code": "Language",
-      "title": "ajax",
-      "id": 7
-    },
-    {
-      "code": "Language",
-      "title": "jquery",
-      "id": 8
+      "title": "html",
+      "img": "/images/html.png",
+      "id": 13
     },
     {
       "code": "Language",
       "title": "javascript",
-      "id": 9
+      "img": "/images/javascript.png",
+      "id": 15,
+      "description": "Learn JavaScript the 3rd edition way"
     },
     {
       "code": "Language",
-      "title": "css",
-      "img": "/images/css.png",
-      "id": 10
+      "title": "jquery",
+      "desc": "How to kick jQuery into action",
+      "img": "/images/jquery.png",
+      "id": 16,
+      "description": "How to kick jQuery into action"
     }
   ]
 }
